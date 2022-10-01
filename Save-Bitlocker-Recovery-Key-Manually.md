@@ -11,4 +11,5 @@
   run this in powershell (as domain admin)
   
   manage-bde -protectors -adbackup c: -id '{FULL-ID-STRING}'
-    NOTE: it is important that you quote the ID string
+  
+NOTE: it is important that you quote the ID string

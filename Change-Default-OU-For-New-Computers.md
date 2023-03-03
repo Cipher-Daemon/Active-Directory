@@ -1,6 +1,6 @@
 # Changing Default OU for New Computers
 
-Changing the default OU for new computers can be important especially if you have GPO/Policies that are applied to all workstations that are applied to an OU. It'll also help from you or other techs from "forgetting" to move the macine or a set of machines from its default Computer OU.
+Changing the default OU for new computers can be important especially if you have GPO/Policies that are applied to all workstations that are applied to an OU. It'll also help from you or other techs from "forgetting" to move the machine or a set of machines from its default Computer OU.
 
 ## Prerequisites
 You need the following:

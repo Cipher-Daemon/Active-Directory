@@ -9,16 +9,16 @@ Try the following to test this:
 nslookup
 ```
 2. Make sure that setting the record is set to all.
-```
+```cmd
 set type=all
 ```
 3. type in the SRV record for LDAP, 
-```
+```cmd
 _ldap._tcp.<internal domain>
 ```
 
 ## Example
 If your internal domain is Lab.local the ldap lookup record would be this:
-```
+```cmd
 _ldap._tcp.lab.local
 ```

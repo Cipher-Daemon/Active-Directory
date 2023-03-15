@@ -6,7 +6,7 @@ Try the following to test this:
 
 1. Open a command prompt or a powershell window and start NSLOOKUP.
 ```cmd
-nslokup
+nslookup
 ```
 2. Make sure that setting the record is set to all.
 ```

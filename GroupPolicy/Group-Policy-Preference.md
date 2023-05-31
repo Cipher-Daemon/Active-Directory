@@ -19,3 +19,12 @@ Whenever you enter multiple settings that contain variables, make sure that you 
 
 Example of how you would setup the GPP for Local Users and Groups Computer setting:
 ![image](https://github.com/Cipher-Daemon/Active-Directory/assets/105097480/a4a60d6c-7ea1-45aa-8d42-a275128bbded)
+
+## Log Generation
+
+If you want to generate logs for GPP to either troubleshoot or have general info of whats happening, you must do the following to enable this:
+1. Make a GPO for GPP logging and link it
+2. Navigate to Computer Configuration > Administrative Templates > System > Group Policy > Logging and Tracing
+3. Select the applicable GPP(s) you want to log and filter
+4. optionally you can choose the logging level (None, Error only, Warning and Error, Informational, Warnings and Errors), Tracing On or Off, Trace location, and Max file size (in KB)
+5. Once you are done with whatever you are doing, go back to the GPO and configure it back to "Not Configured" or Disabled"

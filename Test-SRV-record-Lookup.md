@@ -12,7 +12,11 @@ nslookup
 ```cmd
 set type=all
 ```
-3. type in the SRV record for LDAP, 
+3. (Optional) Specify a DNS Server
+```cmd
+server <DNS-Server-IP>
+```
+4. type in the SRV record for LDAP, 
 ```cmd
 _ldap._tcp.<internal domain>
 ```

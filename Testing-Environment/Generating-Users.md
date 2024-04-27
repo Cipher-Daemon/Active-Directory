@@ -28,9 +28,9 @@ write-progress -Activity "First Names ($Fint out of $FCount)" -status "$FRoundPe
     $Tint++
     $TIntComma = '{0:N0}' -f $Tint
     }
+$combinations | Export-Csv -Path "combinations.csv" -NoTypeInformation
 $Fint++
 $Lint = 1
+$combinations = @()
 }
-
-$combinations | Export-Csv -Path "combinations.csv" -NoTypeInformation
 ```

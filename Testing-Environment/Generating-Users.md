@@ -10,7 +10,7 @@ $FCount = $FirstNames.count
 $LCount = $LastNames.count
 $FInt = 1
 $LInt = 1
-$Tint = 1
+$Tint = 0
 foreach ($firstName in $firstNames) {
 $FPercent = ($Fint/$FCount) * 100
 $FRoundPercent = [math]::Round($FPercent,2)
@@ -28,7 +28,7 @@ write-progress -Activity "First Names ($Fint out of $FCount)" -status "$FRoundPe
     $Tint++
     $TIntComma = '{0:N0}' -f $Tint
     }
-$combinations | Export-Csv -Path "combinations.csv" -NoTypeInformation
+$combinations | Export-Csv -append -Path "combinations.csv" -NoTypeInformation
 $Fint++
 $Lint = 1
 $combinations = @()

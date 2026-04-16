@@ -3,6 +3,7 @@
 More information follow [this](https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/configure-ad-and-lds-event-logging) link.
 
 Domain controller: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NTDS\Diagnostics`
+
 LDS: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\<LDS instance name>\Diagnostics`
 
 1. Knowledge Consistency Checker (KCC)
